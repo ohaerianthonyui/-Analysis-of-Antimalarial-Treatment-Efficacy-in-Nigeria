@@ -45,3 +45,80 @@ Malaria remains a persistent and significant public health challenge in Nigeria,
 
 By leveraging real-world survey data from individuals and hospitals, this project aims to provide a more accurate and actionable analysis of malaria drug resistance in Nigeria, highlighting regional variations, demographic factors, and trends that can inform public health strategies and malaria treatment policies.
 
+
+### Findings
+
+1. **Average Age of Patients:**
+   The average age of malaria patients in the dataset is 41 years, indicating a prevalence of the disease among middle-aged adults.
+
+2. **Commonly Used Drugs:**
+   The most commonly prescribed drugs for malaria treatment are **Atovaquone Proguanil**, followed by **Quinine**. This suggests that Atovaquone Proguanil is the first-line treatment for a significant portion of patients, although Quinine is still in use for specific cases.
+
+3. **Age Group Distribution:**
+   The dataset reveals that **adults** represent the largest group of patients, with children constituting the smallest proportion. This could reflect the higher burden of malaria among adults, possibly due to increased exposure to the parasite, and the lesser incidence in children.
+
+4. **Drug Efficacy by Region:**
+   The **South West** region has the highest drug efficacy, followed by the **South South** region. The **North East** region has the lowest drug efficacy, suggesting potential regional disparities in treatment effectiveness, possibly due to factors like drug availability, resistance patterns, or healthcare access.
+
+5. **Drug Resistance by Region:**
+   The **North East** region exhibits the highest rate of **drug resistance**, followed by the **North West**. Conversely, the **South West** has the least drug resistance, indicating regional variations that could impact the effectiveness of malaria treatment.
+
+6. **Treatment Outcome by Drug Used:**
+   Most patients treated with **Atovaquone Proguanil** experienced successful treatment outcomes, with a significant number of patients cured. In contrast, **Quinine** demonstrated a higher rate of **no improvement**, suggesting that Quinine may be less effective in certain cases or that drug resistance may be more prevalent among patients treated with this medication.
+
+7. **Common Symptoms:**
+   The most commonly experienced symptoms by patients are **Fatigue**, **Muscle Pain**, **Sweating**, **Nausea**, and **Chills**. These symptoms align with the typical presentation of malaria and are crucial for diagnosis.
+
+8. **Gender-Based Treatment Outcomes:**
+   **Females** showed a slightly higher rate of improvement following treatment compared to **males**, although the difference was marginal. This could suggest a possible gender-based difference in drug metabolism or response to treatment.
+
+9. **Correlation Between Age Group and Drug Efficacy:**
+   The **heatmap analysis** reveals that there is virtually no correlation between **Age Group** and **Drug Efficacy (%)**. This implies that **age** does not significantly influence the effectiveness of the treatment, suggesting that the treatment's efficacy remains relatively consistent across different age groups.
+
+10. **Drug Resistance and Treatment Outcome:**
+   Patients without **drug resistance** showed a positive reaction to treatment, whereas those with different resistance types exhibited poor reactions. This highlights the importance of addressing drug resistance in malaria treatment to ensure successful outcomes.
+
+11. **Diagnosis Method and Treatment Success:**
+   Patients who used **self-diagnosis methods** had the highest rate of successful treatment, followed by those who underwent **PCR and microscopy tests**. This suggests that accurate diagnosis methods might correlate with better treatment outcomes, emphasizing the need for precise diagnostic tools in malaria management.
+
+12. **Average Treatment Duration:**
+   The **average treatment duration** for patients is **29 days**, which aligns with the expected length of time for malaria treatment, although variations may exist based on treatment protocols or patient conditions.
+
+13. **Drug Efficacy and Resistance Test Result:**
+   **Susceptible** resistance test results were associated with the highest drug efficacy, indicating that patients without drug resistance are more likely to respond positively to treatment. This emphasizes the critical role of drug susceptibility testing in malaria treatment.
+
+14. **Symptoms Associated with Resistance:**
+   The symptoms most frequently associated with **drug resistance** were **Fatigue**, **Nausea**, **Chills**, and **Muscle Pain**. These symptoms may be indicative of patients who are not responding well to treatment, highlighting the need for alternative treatment strategies for drug-resistant malaria cases.
+
+---
+
+### Conclusion
+
+This analysis provides valuable insights into the effectiveness of antimalarial treatments in Nigeria, with a focus on regional differences, drug efficacy, resistance patterns, and treatment outcomes. Key findings suggest that there are notable regional variations in drug efficacy and resistance, as well as significant differences in treatment outcomes depending on the drug used and the presence of drug resistance. Furthermore, gender and diagnosis method also appear to influence treatment success, with females showing slightly higher improvement and patients using self-diagnosis methods having better treatment outcomes. These findings are critical for informing future malaria control strategies.
+
+---
+
+### Recommendations
+
+1. **Enhance Drug Availability and Access:**
+   Given the regional differences in drug efficacy, especially in the North East, efforts should be made to improve the accessibility of effective antimalarial drugs. This could involve increasing distribution networks, improving healthcare infrastructure, and ensuring the availability of first-line treatments like **Atovaquone Proguanil**.
+
+2. **Address Drug Resistance:**
+   Drug resistance, particularly in the North East and North West, is a critical issue. It is important to invest in research and development of new antimalarial drugs, as well as strategies for managing and combating resistance. Additionally, resistance testing should be prioritized in treatment protocols to tailor drug choices to individual patient profiles.
+
+3. **Strengthen Diagnostic Methods:**
+   The higher success rates observed with **self-diagnosis**, **PCR**, and **microscopy** suggest the need for better diagnostic accuracy. Increased investment in diagnostic infrastructure and training for healthcare professionals could help in early detection and proper treatment selection, improving treatment success rates.
+
+4. **Targeted Public Health Campaigns:**
+   Public health initiatives should target **adults**, the demographic most affected by malaria, with emphasis on preventative measures and early treatment. Since **children** appear less affected in this dataset, there may be opportunities to focus efforts on those most at risk in the adult population.
+
+5. **Gender-Specific Treatment Protocols:**
+   Although the difference in treatment outcomes between male and female patients is small, further investigation into potential gender-based differences in drug response could be valuable. Gender-specific treatment regimens might be considered in future malaria management strategies.
+
+6. **Continuous Monitoring of Drug Efficacy:**
+   Regular surveillance of drug efficacy across different regions, particularly in the North East, should be a priority to ensure that treatment protocols remain effective. Tracking regional resistance patterns can inform timely adjustments to malaria treatment guidelines.
+
+7. **Public Awareness of Malaria Symptoms:**
+   Educating the public about the common symptoms of malaria, particularly **Fatigue**, **Muscle Pain**, **Sweating**, **Nausea**, and **Chills**, is essential for early identification and treatment. Public health campaigns should emphasize the importance of seeking treatment early to avoid complications associated with untreated malaria.
+
+By implementing these recommendations, Nigeria can improve the effectiveness of its malaria control programs and reduce the burden of the disease on its population.
